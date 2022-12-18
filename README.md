@@ -236,7 +236,7 @@ https://en.wikipedia.org/wiki/Package_manager
 次に、Gitをインストールしてください。  
 
 ```sh
-$ sudo install git
+$ sudo yum install git
 ```
 
 同じく、`Is this ok [y/d/N]:`に対しては`y`を入力してエンターキーを押してください。  
@@ -265,7 +265,7 @@ $ java
 
 Javaをインストールします。  
 ```sh
-$ sudo install git
+$ sudo yum install git
 ```
 
 同じく、`Is this ok [y/d/N]:`に対しては`y`を入力してエンターキーを押してください。  
