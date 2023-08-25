@@ -265,7 +265,7 @@ $ java
 
 Javaをインストールします。  
 ```sh
-$ sudo yum install git
+$ sudo yum install java
 ```
 
 同じく、`Is this ok [y/d/N]:`に対しては`y`を入力してエンターキーを押してください。  
