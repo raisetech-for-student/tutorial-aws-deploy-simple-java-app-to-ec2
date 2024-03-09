@@ -263,9 +263,9 @@ $ java
 -bash: java: command not found
 ```
 
-Javaをインストールします。  
+Java（JDK17）をインストールします。  
 ```sh
-$ sudo yum install java
+$ sudo yum install java-17-amazon-corretto-devel
 ```
 
 同じく、`Is this ok [y/d/N]:`に対しては`y`を入力してエンターキーを押してください。  
@@ -281,9 +281,9 @@ Javaが利用可能になっていることを確認してください。
 チュートリアルに使うアプリケーションはJava17を前提にしているのでもし、うまく起動ができなければJava17をインストールするか、起動するアプリケーションのJavaのバージョンを最新のLTS版に変更してください。  
 ```sh
 $ java --version
-openjdk 17.0.5 2022-10-18 LTS
-OpenJDK Runtime Environment Corretto-17.0.5.8.1 (build 17.0.5+8-LTS)
-OpenJDK 64-Bit Server VM Corretto-17.0.5.8.1 (build 17.0.5+8-LTS, mixed mode, sharing)
+openjdk 17.0.10 2024-01-16 LTS
+OpenJDK Runtime Environment Corretto-17.0.10.8.1 (build 17.0.10+8-LTS)
+OpenJDK 64-Bit Server VM Corretto-17.0.10.8.1 (build 17.0.10+8-LTS, mixed mode, sharing)
 ```
 
 # アプリケーションを起動してアクセスする
